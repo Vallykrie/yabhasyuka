@@ -3,7 +3,7 @@
 import { motion, useScroll, useTransform } from "framer-motion"
 import { useRef } from "react"
 import Image from "next/image"
-import { PackageCheck, Rocket, ShieldCheck } from "lucide-react" // Added PackageCheck, Rocket, and ShieldCheck icon imports
+import { PhoneCall, Rocket, ShieldCheck } from "lucide-react" // Added PackageCheck, Rocket, and ShieldCheck icon imports
 import { Reveal } from "./reveal"
 import { BlurPanel } from "./blur-panel"
 import bg from "@/public/7582.jpg"
@@ -101,18 +101,16 @@ export function HeroSection() {
       >
         <BlurPanel className="mx-6 mb-6 px-6 py-4 bg-black/24 backdrop-blur-md border-white/20">
           <div className="flex items-center justify-center gap-6 text-white/90">
-            <div className="flex items-center gap-2">
-              <PackageCheck className="w-4 h-4 text-green-400" />
-              <span className="text-sm">Free shipping</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <Rocket className="w-4 h-4 text-amber-400" />
-              <span className="text-sm">Delivered in 6 weeks</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <ShieldCheck className="w-4 h-4 text-blue-400" />
-              <span className="text-sm">Lifetime guarantee</span>
-            </div>
+            <a
+              href="https://api.whatsapp.com/send?phone=6281353010155"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Chat on WhatsApp"
+              className="flex items-center gap-2 cursor-pointer"
+            >
+              <PhoneCall className="w-4 h-4 text-green-400" />
+              <span className="text-sm">Free Consultation</span>
+            </a>
           </div>
         </BlurPanel>
       </motion.div>

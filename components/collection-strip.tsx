@@ -89,7 +89,7 @@ export function CollectionStrip() {
           <div className="container-custom text-center">
             <h2 className="text-neutral-900 mb-4 text-6xl font-normal">Our Products</h2>
             <p className="text-lg text-neutral-600 max-w-2xl mx-auto">
-              Explore our curated collections, each telling a unique story of craftsmanship and design philosophy.
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
             </p>
           </div>
         </Reveal>
