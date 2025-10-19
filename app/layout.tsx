@@ -17,6 +17,9 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://yabhasyuka.example/",
   },
+  icons: {
+    icon: '/favicon.ico',
+  },
   openGraph: {
     siteName: "Yabhasyuka",
     title: "Aesthetics Clinic specializing in anti-aging treatments and skincare solutions. | Yabhasyuka",
