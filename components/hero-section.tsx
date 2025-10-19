@@ -70,10 +70,10 @@ export function HeroSection() {
       >
         <div className="container-custom text-center text-white">
           <Reveal>
-            <h1 className="text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-bold leading-none tracking-tight mb-6">
-              <AnimatedText text="Welcome to" delay={0.5} />
+            <h1 className="text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-bold leading-none tracking-tight mb-4">
+              <AnimatedText text="Welcome" delay={0.5} />
               <br />
-              <span className="italic font-light">
+              <span className="text-5xl md:text-7xl lg:text-8xl xl:text-9xl italic font-light">
                 <AnimatedText text="Yabhasyuka." delay={1.1} />
               </span>
             </h1>
