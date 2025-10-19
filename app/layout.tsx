@@ -10,22 +10,22 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: "Katachi — Design furniture for spaces that breathe.",
-  description: "Architected in Belgium, built to last—timeless pieces.",
+  title: "Yabhasyuka Aesthetics",
+  description: "",
   generator: "v0.app",
   alternates: {
-    canonical: "https://katachi.example/",
+    canonical: "https://yabhasyuka.example/",
   },
   openGraph: {
     siteName: "Katachi",
-    title: "Design furniture for spaces that breathe. | Katachi",
-    description: "Architected in Belgium, built to last—timeless pieces.",
+    title: "Aesthetics Clinic specializing in anti-aging treatments and skincare solutions. | Yabhasyuka",
+    description: "",
     type: "website",
-    url: "https://katachi.example/",
+    url: "https://yabhasyuka.vercel.app/",
     images: [
       {
         url: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/opengraph-katachi.jpg-7vz2r3hxZA6woukGOmH115Fg7Piyjs.jpeg",
-        alt: "Katachi design furniture — timeless pieces, architected in Belgium",
+        alt: "Aesthetics Clinic specializing in anti-aging treatments and skincare solutions.",
         width: 1200,
         height: 630,
       },
@@ -34,12 +34,12 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Design furniture for spaces that breathe. | Katachi",
+    title: "Aesthetics Clinic specializing in anti-aging treatments and skincare solutions. | Yabhasyuka",
     description: "Architected in Belgium, built to last—timeless pieces.",
     images: [
       {
         url: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/opengraph-katachi.jpg-7vz2r3hxZA6woukGOmH115Fg7Piyjs.jpeg",
-        alt: "Katachi design furniture — timeless pieces, architected in Belgium",
+        alt: "Aesthetics Clinic specializing in anti-aging treatments and skincare solutions.",
       },
     ],
     site: "@katachi",
